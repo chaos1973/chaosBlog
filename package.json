@@ -1,0 +1,27 @@
+{
+  "name": "vitepress-blog",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Chao",
+  "license": "MIT",
+  "scripts": {
+    "fix-memory-limit": "cross-env LIMIT=2048 increase-memory-limit",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs node --max-old-space-size=2048 build/build.js",
+    "serve": "vitepress serve docs"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@sugarat/theme": "^0.2.6",
+    "element-plus": "^2.3.8",
+    "vue": "^3.3.4"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "sass": "^1.64.1",
+    "typescript": "^5.1.6",
+    "vitepress": "1.0.0-rc.17"
+  }
+}

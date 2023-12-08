@@ -1,0 +1,24 @@
+2023-10-11 13:19:24.391 [Thread-197] INFO  com.scienjus.smartqq.client.SmartQQApi - 开始获取二维码
+2023-10-11 13:19:24.722 [Thread-197] INFO  com.scienjus.smartqq.client.SmartQQApi - 二维码已保存在 D:\my-blog\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2023-10-11 13:19:44.811 [Thread-200] INFO  com.scienjus.smartqq.client.SmartQQApi - 开始获取二维码
+2023-10-11 13:19:44.889 [Thread-200] INFO  com.scienjus.smartqq.client.SmartQQApi - 二维码已保存在 D:\my-blog\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2023-10-11 13:20:23.789 [Thread-197] ERROR com.scienjus.smartqq.client.SmartQQClient - 登录失败
+java.lang.RuntimeException: 验证二维码超时
+	at com.scienjus.smartqq.client.SmartQQApi.verifyQRCode(SmartQQApi.java:188)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:109)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:195)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
+2023-10-11 13:20:33.201 [Thread-203] INFO  com.scienjus.smartqq.client.SmartQQApi - 开始获取二维码
+2023-10-11 13:20:33.281 [Thread-203] INFO  com.scienjus.smartqq.client.SmartQQApi - 二维码已保存在 D:\my-blog\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2023-10-11 13:20:43.812 [Thread-200] ERROR com.scienjus.smartqq.client.SmartQQClient - 登录失败
+java.lang.RuntimeException: 验证二维码超时
+	at com.scienjus.smartqq.client.SmartQQApi.verifyQRCode(SmartQQApi.java:188)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:109)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:195)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
+2023-10-11 13:21:32.269 [Thread-203] ERROR com.scienjus.smartqq.client.SmartQQClient - 登录失败
+java.lang.RuntimeException: 验证二维码超时
+	at com.scienjus.smartqq.client.SmartQQApi.verifyQRCode(SmartQQApi.java:188)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:109)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:195)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
